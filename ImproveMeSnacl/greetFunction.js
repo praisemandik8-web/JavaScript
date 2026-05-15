@@ -1,9 +1,9 @@
 const prompt = require("prompt-sync")();
-function greet(name){
+function greetUser(name){
 
-name = prompt("Enter ya name chairman");
-greetings = "Hello";
-return greetings
+name = prompt("Enter ya name chairman ");
+greetings = "Hello ";
+return greetings + name
 
 }
-console.log(greet(name));
+console.log(greetUser());
