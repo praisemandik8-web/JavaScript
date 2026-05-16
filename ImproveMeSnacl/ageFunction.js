@@ -6,7 +6,7 @@ function age(ageInput){
     
     }
 
-    if(ageInput >12 && ageInput <20){
+    else if(ageInput >12 && ageInput <20){
     let teen = "Teenage";
     return teen;
     }
@@ -15,6 +15,10 @@ function age(ageInput){
     if(ageInput > 18){
     let adult = "Adult";
     return adult;
+    }
+
+    else{
+    return "Invalid";
     }
 
     

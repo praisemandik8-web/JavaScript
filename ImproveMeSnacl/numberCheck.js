@@ -1,17 +1,21 @@
 function check(number){
     if(number < 0){
-    let negPrompt = "Number is negative"
-    return negPrompt;
+    let negative = "Number is negative"
+    return negative;
     }
 
-        if(number == 0){
-    let zeroPrompt = "Number is zero"
-    return zeroPrompt;
+    else if(number == 0){
+    let zero = "Number is zero"
+    return zero;
     }
 
-        if(number > 0){
-    let posPrompt = "Number is positive"
-    return posPrompt;
+    else if(number > 0){
+    let positive = "Number is positive"
+    return positive;
+    }
+
+    else{
+    return "invalid"
     }
 
 }
