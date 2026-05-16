@@ -12,7 +12,7 @@ function age(ageInput){
     }
 
     
-    if(ageInput > 18){
+     else if(ageInput > 18){
     let adult = "Adult";
     return adult;
     }
